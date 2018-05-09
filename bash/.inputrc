@@ -1,7 +1,7 @@
 # .inputrc - readline configuration
 
 # editing mode
-set editing-mode vi
+# set editing-mode vi
 
 # complete full matches of already typed text using arrow keys
 $if mode=vi

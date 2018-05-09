@@ -4,6 +4,9 @@ A dotfiles framework [open to extension, without need for
 modification](https://en.wikipedia.org/wiki/Open/closed_principle) for
 [bash](https://www.gnu.org/software/bash/).
 
+## Prerequisites
+bash 4 or higher
+
 ## Installation
 
 1. Clone repository.
