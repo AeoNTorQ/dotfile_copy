@@ -21,10 +21,13 @@
 [log]
 	follow = true
 [merge]
-	# A wonderful default diffing tool.
-	tool = vimdiff
-	# Provide base context to aid in conflict resolution.
-	conflictstyle = diff3
+        tool = extMerge
+        conflictStyle = diff3
+[mergetool "extMerge"]
+        cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+        trustExitCode = false
+[diff]
+        external = extDiff
 [pager]
 	# Use the pager for long status display.
 	status = true
